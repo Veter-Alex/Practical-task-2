@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Выборы в США</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1>Организовать выборы в США</h1>
+
+        <div>
+            <button id="getElectorToState">
+                Назначить случайных выборщиков для каждого штата
+            </button>
+
+            <p>Выборщики от штатов США</p>
+            <table id="stateTable">
+                <tr>
+                    <th>Штат</th>
+                    <th>Выборщик от штата</th>
+                </tr>
+                <tr></tr>
+            </table>
+        </div>
+
+        <div id="resultElections">
+            <button id="holdElections">Провести выборы</button>
+            <button id="interfereElections" style="display: none">
+                Вмешаться в выборы
+            </button>
+            <div id="resultTable">
+                <div id="firstCandidate">
+                    <div id="firstCandidatefoto"></div>
+                    <div id="firstCandidatepercent"></div>
+                </div>
+
+                <div id="secondCandidate">
+                    <div id="secondCandidatefoto"></div>
+                    <div id="secondCandidatepercent"></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
